@@ -1,0 +1,90 @@
+/*
+* @Author: 刘伟杰
+* @Date:   2017-12-06 13:31:14
+* @Last Modified by:   刘伟杰
+* @Last Modified time: 2017-12-06 20:36:06
+*/
+
+.banner{
+		width: 1226px;
+		height: 460px;
+		position: relative;
+		margin: 0 auto;
+}
+.banner_box{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+}
+.banner_box a{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.banner_box .bannerImg-active{
+	opacity:0;
+	transition: all 1s linear;
+}
+img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+aside{
+		width: 234px;
+		height: 460px;
+		background: rgba(0, 0, 0, .5);
+		position: absolute;
+		left: 0;
+		top: 0;
+		padding: 20px 0;
+}
+.cenav-item{
+		width: 100%;
+		height: 42px;
+		display: block;
+		padding: 0 20px;
+		color: #fff;
+		line-height: 42px;
+}
+.cenav-item span:nth-child(2){
+		float: right;
+}
+.cenav-item:hover{
+	background: orangered;
+}
+.nav-card{
+	width: 795px;
+	height: 460px;
+	background: #2df;
+	position: absolute;
+	left: 234px;
+	top: 0;
+	background: #fff;
+	display: none;
+}
+.nav-card ul{
+		width: 265px;
+		height: 100%;
+		border: 2px solid #ccc;
+		float: left;
+}
+.lbd{
+	width: 170px;
+	height: 10px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	margin: 0 auto;
+}
+.lbd li{
+	width: 6px;
+    height: 6px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    float: left;
+    margin: 0 5px;
+    cursor: pointer;
+}
